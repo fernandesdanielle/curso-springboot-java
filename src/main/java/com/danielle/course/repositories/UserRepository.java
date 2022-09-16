@@ -1,7 +1,7 @@
 package com.danielle.course.repositories;
 
-import com.danielle.course.entities.Usuario;
+import com.danielle.course.entities.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface UserRepository extends JpaRepository<Usuario, Long> {
+public interface UserRepository extends JpaRepository<User, Long> {
 }
